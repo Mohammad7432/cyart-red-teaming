@@ -1,12 +1,12 @@
-# 🔐 Week 2 – Cybersecurity Practical Labs
+# Week 2 – Cybersecurity Practical Labs
 
-## 📌 Overview
+## Overview
 
 This repository contains hands-on cybersecurity tasks completed as part of Week 2 of the CYART Red Teaming program. The focus of this week was to build practical skills across multiple domains including threat hunting, malware analysis, vulnerability management, incident response, risk assessment, and network defense.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Detect suspicious system activity using logs
 * Perform static malware analysis
@@ -18,9 +18,9 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-## 🧪 Tasks Completed
+## Tasks Completed
 
-### 🔎 1. Threat Hunting
+### 1. Threat Hunting
 
 * Used Windows Event Viewer (Event ID 4688)
 * Detected suspicious PowerShell activity
@@ -29,7 +29,7 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-### 🧬 2. Malware Analysis
+### 2. Malware Analysis
 
 * Analyzed `calc.exe` using static analysis
 * Extracted strings from binary
@@ -38,7 +38,7 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-### 🛡️ 3. Vulnerability Management
+### 3. Vulnerability Management
 
 * Performed vulnerability scan using OpenVAS (Greenbone)
 * Identified SSL/TLS weak cipher vulnerability
@@ -47,7 +47,7 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-### 🚨 4. Incident Response Simulation
+### 4. Incident Response Simulation
 
 * Simulated PowerShell-based attack
 * Identified Indicators of Compromise (IOCs)
@@ -56,7 +56,7 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-### 🌐 5. Network Defense (Suricata IDS)
+### 5. Network Defense (Suricata IDS)
 
 * Configured Suricata on Kali Linux
 * Created custom IDS rules
@@ -66,7 +66,7 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-### 📊 6. Risk Assessment
+### 6. Risk Assessment
 
 * Performed qualitative and quantitative risk analysis
 * Calculated ALE (Annual Loss Expectancy)
@@ -75,7 +75,7 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-### 📄 7. Incident Report (Phishing Scenario)
+### 7. Incident Report (Phishing Scenario)
 
 * Simulated phishing attack scenario
 * Documented detection, analysis, and response
@@ -84,7 +84,7 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-### 🧩 8. Capstone Project
+### 8. Capstone Project
 
 * Simulated full attack lifecycle:
 
@@ -94,7 +94,7 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 * Windows Event Viewer
 * PowerShell
@@ -106,7 +106,7 @@ This repository contains hands-on cybersecurity tasks completed as part of Week 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```bash
 week-2/
@@ -123,7 +123,7 @@ week-2/
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 Each task folder contains relevant screenshots demonstrating:
 
@@ -134,7 +134,7 @@ Each task folder contains relevant screenshots demonstrating:
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * Identifying attacker behavior using logs
 * Understanding malware through static analysis
@@ -145,6 +145,6 @@ Each task folder contains relevant screenshots demonstrating:
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 
 This project demonstrates a comprehensive cybersecurity workflow, covering detection, analysis, response, and prevention. It highlights the importance of combining multiple security approaches to effectively defend systems against threats.
