@@ -1,0 +1,8 @@
+# Detect suspicious PowerShell download activity
+alert http any any -> any any (msg:"PowerShell Download Detected"; content:"powershell"; nocase; sid:1000001;)
+
+# Detect possible command injection attempt
+alert tcp any any -> any any (msg:"Possible Command Injection"; content:"cmd.exe"; nocase; sid:1000002;)
+
+# Detect suspicious encoded command
+alert tcp any any -> any any (msg:"Encoded Command Detected"; content:"-enc"; nocase; sid:1000003;)
